@@ -1,0 +1,275 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+@font-face {
+  font-family: 'Renaiss Italic';
+  src: url('/public/fonts/Renaiss-Italic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Roboto';
+  src: url('/public/fonts/Roboto-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.videoTotal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.telaCheia {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.tituloCapa {
+  position: absolute;
+  bottom: 10px;
+  right: 80px;
+  color: #FE4A49;
+  font-size: 2em;
+  font-weight: normal;
+  font-family: 'Renaiss Italic', serif;
+  white-space: normal;
+  max-width: 300px;
+  text-shadow: -1px -1px 0 #ffffff,
+               1px -1px 0 #ffffff, 
+               -1px 1px 0 #ffffff, 
+               1px 1px 0 #ffffff
+}
+.tituloCapa h3{
+  font-size: 0.75em;
+}
+
+.secaoUm{
+  min-height: 400px;
+  background-color: #FE4A49;
+  display: flex;
+  gap: 70px;
+}
+
+.fotoIncendio{
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center; 
+  width: 100px;
+  height: auto;
+  padding: 30px;
+  flex: 1;
+}
+.fotoIncendio img { 
+  max-width: 100%; 
+  height: auto; 
+  margin-bottom: 60px;
+}
+.fotoOutra{
+  display: flex;
+  align-items: center; 
+  justify-content: center; 
+  width: 100px;
+  height: auto;
+  padding: 30px;
+  flex: 1;
+}
+.fotoOutra img { 
+  max-width: 100%; 
+  height: auto; 
+  margin-bottom: 60px;
+}
+
+.textoUm{
+  flex: 1;
+  flex-direction: column;
+  justify-content:center;
+  padding: 40px 80px 40px 0;
+  color: #ffffff;
+  line-height: 1.5;
+  text-align: justify;
+  font-family: 'Roboto', sans-serif;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+
+.capitular {
+  float: left;
+  font-size: 4em;
+  line-height: 0.8;
+  margin-top: 0.1em;
+  padding-right: 0.1em;
+  font-family: 'Renaiss Italic', serif;
+  color: #ffffff;
+}
+.textoUm p {
+  margin-bottom: 20px; 
+  line-height: 1.5;
+  text-align: justify;
+}
+.testeTexto p {
+  margin-bottom: 20px; 
+  line-height: 1.5;
+  text-align: justify;
+}
+
+
+.secaoDois{
+  min-height: 400px;
+  background-color: #FE4A49;
+  display: flex;
+  gap: 70px;
+}
+
+.secaoTres{
+  min-height: 400px;
+  background-color: #FE4A49;
+  display: flex;
+  gap: 70px;
+}
+
+.secaoCinco{
+  min-height: 400px;
+  background-color: #3f6634;
+  display: flex;
+  gap: 70px;
+}
+.secaoSeis{
+  min-height: 400px;
+  background-color: #3f6634;
+  display: flex;
+  gap: 70px;
+  width: 100%;
+}
+
+.secaoSete {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px; /* Ajuste o espaço entre os elementos */
+  background-color: #3f6634;
+}
+
+.secaoOito{
+  min-height: 400px;
+  background-color: #3f6634;
+  display: flex;
+  gap: 70px;
+}
+
+.videoOito{
+  display: flex;
+  align-items: center; 
+  justify-content: center; 
+  width: 400px;
+  height: auto;
+  padding: 30px;
+}
+.videoTeste{
+  display: flex;
+  align-items: center; 
+  justify-content: center; 
+  width: 100%;
+  height: auto;
+  padding: 30px;
+  flex-direction: row;
+}
+.video{
+  width: 100%;
+  height: auto; 
+  border: none;
+}
+
+.foto {
+  display: flex;
+  align-items: flex-start; /* Ajusta o alinhamento vertical */
+}
+
+
+.foto img {
+  width: 100%;
+  height: auto;
+  margin-top: 100px; 
+}
+
+.videoEntrevista{
+  display: flex;
+  align-items: center; 
+  justify-content: center;
+  height: auto; 
+  width: 550px;
+  padding: 30px;
+}
+
+.videoNeumar{
+  width: 100%;
+  height: auto; 
+  border: none;
+}
+
+.AlefMouraCinco{
+  width: 70%;
+  height: auto; 
+  border: none;
+}
+
+.testeSecao {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  background-color: #3f6634;
+  padding: 20px;
+  width: 100%;
+}
+
+.videoTeste {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  padding: 20px;
+}
+
+.video {
+  width: 100%;
+  height: auto;
+  border: none;
+}
+
+.fotoUltima {
+  flex-shrink: 0; /* Impede a imagem de encolher */
+  width: 30%; /* Define uma largura fixa para a imagem */
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fotoUltima img {
+  max-width: 100%;
+  height: auto;
+  border: none;
+}
+
+.testeTexto {
+  flex: 2; /* Aumenta o espaço disponível para o texto */
+  color: #ffffff;
+  line-height: 1.8;
+  font-family: 'Roboto', sans-serif;
+  text-align: justify;
+  padding-left: 20px; /* Adiciona espaçamento à esquerda do texto */
+}
+
+
+
+
+
